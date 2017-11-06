@@ -3,30 +3,157 @@
   margin-right: 0%;
 }
 
-.website-toolbar{
-  height:50px;
-  max-height: 100px;
+.logo-container img{
+  height: 50px;
 }
 
 md-toolbar:not(.md-menu-toolbar) {
-  background-color: #0a66b74d;
+  background-color: #082356e8;
   color: rgba(255,255,255,0.87);
 }
 
-.md-toolbar-tools a{
-  cursor: pointer;
-  color: white;
-}
-
-.md-toolbar-tools a:hover{
-  color: red;
-}
 
 *:focus {
   outline: none;
 }
 
 md-sidenav{
-  width: 40vw;
-  max-width: 300px;
+  width: 400px;
+}
+
+.footer{
+  height: 5%;
+  background-color: #082356e8;
+  color: white;
+  padding: 5px 20px 5px 20px;
+}
+
+#contact-form {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+textarea,
+input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  background: 'black';
+  font-weight: 700;
+  font-family: 'Lato', georgia;
+  font-size: 25px;
+  color: 'black';
+  max-width: 90%;
+  padding: 1rem;
+  border-style: dotted;
+  box-sizing: border-box;
+  cursor: text;
+}
+
+textarea {
+  text-align: left;
+  /* overflow:hidden; */
+  
+  resize: none;
+  width: 90%;
+  border-color: 'black'
+}
+
+textarea:focus {
+  background-color: 'black';
+  border: 2px dashed 'black';
+}
+
+textarea:focus:required:valid {
+  border: 2px solid 'black';
+  border-bottom: 2px solid 'black';
+}
+
+textarea:required:valid {
+  border-bottom: 2px solid 'black';
+}
+
+input {
+  border-bottom: 2px dashed 'black';
+}
+
+input:required,
+textarea:required {
+  border-bottom: 2px dashed 'black';
+}
+
+input:focus {
+  border-bottom: 2px dashed rgba(255, 255, 255, 1);
+  background-color: 'black';
+}
+
+input:required:valid {
+  border-bottom: 2px solid 'black';
+}
+
+input:required:invalid {
+  color: 'black';
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: 'black';
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  color: "black";
+  font-style: italic;
+  font-weight: 400;
+}
+
+.expanding {
+  vertical-align: top;
+}
+
+.send-icn {
+  fill: 'black'
+}
+
+.send-icn:hover {
+  fill: 'black';
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: 3px;
+  outline: none;
+  margin: 2vmax;
+}
+
+button:hover small {
+  opacity: 1;
+}
+
+small {
+  display: block;
+  opacity: 0;
+}
+
+.website {
+  opacity: 1;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-top: 7%;
+}
+
+.website a {
+  color: white;
 }
