@@ -1,0 +1,24 @@
+<div ng-cloak>
+  <md-content>
+    <md-tabs md-dynamic-height md-border-bottom md-center-tabs="true">
+      <md-tab label="Home">
+        <md-content class="md-padding">
+            <div ng-include="'components/home/home.html'">
+            </div> 
+        </md-content>
+      </md-tab>
+      <md-tab label="About">
+        <md-content class="md-padding">
+          <div ng-include="'components/about/about.html'">
+          </div>
+        </md-content>
+      </md-tab>
+      <md-tab label="Donate">
+        <md-content class="md-padding">
+          <div ng-include="'components/donate/donate.html'">
+          </div>
+        </md-content>
+      </md-tab>
+    </md-tabs>
+  </md-content>
+</div>
