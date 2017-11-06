@@ -1,0 +1,32 @@
+.container{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.website-toolbar{
+  height:50px;
+  max-height: 100px;
+}
+
+md-toolbar:not(.md-menu-toolbar) {
+  background-color: #0a66b74d;
+  color: rgba(255,255,255,0.87);
+}
+
+.md-toolbar-tools a{
+  cursor: pointer;
+  color: white;
+}
+
+.md-toolbar-tools a:hover{
+  color: red;
+}
+
+*:focus {
+  outline: none;
+}
+
+md-sidenav{
+  width: 40vw;
+  max-width: 300px;
+}
