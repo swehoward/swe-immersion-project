@@ -20,16 +20,30 @@ md-sidenav{
   width: 400px;
 }
 
+@media (max-width: 40em) {
+  .website-sidebar {
+    display: none;
+  }
+}
+
 .website-sidebar{
-  width: 20%;
+  max-width: 25%;
+  min-width: 300px;
   margin-top: 5%;
+  padding: 0px 5px 0px 5px;
 }
 
 .footer{
   height: 5%;
   background-color: #082356e8;
   color: white;
-  padding: 5px 20px 5px 20px;
+  display: flex;
+  align-items: center; 
+}
+
+.footer-content{
+  float: none;
+  margin: auto;
 }
 
 #contact-form {
