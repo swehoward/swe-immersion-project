@@ -4,20 +4,12 @@ body {
 
 .gallery-pic {
 	height: 280px;
-	width: auto;
+	width:300px;
+	height:325px;
+	padding:20px;
 	transition: all .1s ease-in-out;
 	-ms-transition: all .1s ease-in-out;
 	-moz-transition: all .1s ease-in-out;
 	-webkit-transition: all .1s ease-in-out;
 	-o-transition: all .1s ease-in-out;
-}
-
-.gallery-pic:hover {
-	height: 280px;
-	width: auto;
-	transform: scale(1.65);
-	-webkit-transform: scale(1.65) translateY(80px);
-	-moz-transform: scale(1.65);
-	-ms-transform: scale(1.65);
-	-o-transform: scale(1.65);
 }
