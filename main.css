@@ -32,6 +32,16 @@ md-sidenav{
   padding: 5px 20px 5px 20px;
 }
 
+
+
+
+
+
+
+
+
+/*Get Involved CSS*/
+/*Isn't working when I tried to implement it from another file*/
 #contact-form {
   max-width: 90%;
   margin: 0 auto;
