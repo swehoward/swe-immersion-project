@@ -102,17 +102,6 @@ $form-group-margin-bottom: 30px;
 @import 'bootstrap/variables';
 
 
-
-
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
-
-// Template Base
-
 body {
 	font-family: $font-primary;
 	line-height: 1.6;
@@ -1254,6 +1243,8 @@ figure {
 	.js & {
 		opacity: 0;
 	}
+	padding-bottom: 100%;
+    margin-bottom: -100%;
 }
 
 

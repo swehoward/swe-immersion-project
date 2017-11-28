@@ -34,6 +34,7 @@
   @if ($type == width) and ($index > 0) {
     .col-#{$class}-#{$index} {
       width: percentage(($index / $grid-columns));
+      min-height: 618px;
     }
   }
   @if ($type == push) and ($index > 0) {
